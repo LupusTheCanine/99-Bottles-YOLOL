@@ -1,0 +1,13 @@
+noMore="no more"
+bottleCount=2
+bottlesOfBeer=" bottles of beer"
+OnTheWall=" on the wall"
+TakeOne="0Take one down and pass it around, "
+GoStore="1Go to the store and buy some more, "
+TG=TakeOne+GoStore
+output=("1N"-(bottleCount>99)-"1N")+bottleCount-"n"+bottlesOfBeer-("s1"-bottleCount)+OnTheWall+", "
+output+=bottleCount+bottlesOfBeer-("s1"-bottleCount)+".\n"
+if bottleCount--==(noMore-"e") then bottleCount=99 end if bottleCount==0 then bottleCount=noMore end
+output+=TG-(bottleCount==99)-TakeOne-GoStore+bottleCount+bottlesOfBeer+OnTheWall+"."-("s1"-bottleCount)+"\n"
+:output=output
+goto 8
