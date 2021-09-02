@@ -1,7 +1,7 @@
 //99 bottles of beer, YOLOL cover by Lupus the Canine, feat severe 
 a="no more" b=99 c=" bottles of beer" d=" on the wall"//YOLOL string
 e="0Take one down and pass it around, " //operation abuse. License
-f="1Go to the store and buy some more, " g=e+f //GPLv3
+f="1Go to the store and buy some more, " g=e+f //GPL-3.0-or-later
 h="1N"-b>99-"1N"+b-"n"+c-("s1"-b)+d+", "+b+c-("s1"-b)+".\n"
 ifb--==(a-"e")thenb=99end ifb==0thenb=a end 
 h+=g-b==99-e-f+b+c+d+"."-("s1"-b)+"\n" :output=h goto5
