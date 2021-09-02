@@ -1,4 +1,5 @@
-noMore="no more"
+//99 bottles of beer, YOLOL cover by Lupus the Canine, feat severe YOLOL string operation abuse.
+noMore="no more" //Licensed under GNU GPL-3.0-or-later
 bottleCount=2
 bottlesOfBeer=" bottles of beer"
 OnTheWall=" on the wall"
@@ -10,4 +11,4 @@ output+=bottleCount+bottlesOfBeer-("s1"-bottleCount)+".\n"
 if bottleCount--==(noMore-"e") then bottleCount=99 end if bottleCount==0 then bottleCount=noMore end
 output+=TG-(bottleCount==99)-TakeOne-GoStore+bottleCount+bottlesOfBeer+OnTheWall+"."-("s1"-bottleCount)+"\n"
 :output=output
-goto 8
+goto 9
